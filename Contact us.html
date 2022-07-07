@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pictures/axes2.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CONTACT</title>
+</head>
+<body>
+  <div class="jumbotron jumboton-fluid text-center" id="jumbo">
+    <a href="index.html"><img src="pictures/main logo.png" alt="" id="imgcabe" class="img-fluid imgcabe"></a>
+    <strong><h4>"Here we work to offer you the best services and help you in your needs, because we are FOREST MVPs trained in forest management."</h4></strong>
+  </div>
+  <!--this is the navigation bar-->
+  <nav class="navbar navbar-dark  navbar-expand-lg bg-dark">
+      <a class="navbar-brand" href="index.html"><img src="pictures/axes2.png" width="30" height="30" alt="" class="d-inline-block align-top"> MVP</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About us.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Soil service
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Chemical analysis.html">Chemical analysis</a>
+              <a class="dropdown-item" href="Physical analysis.html">Physical analysis</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Others.html">Others</a>
+            </div>
+          </li>
+          <li class="nav-item   active">
+            <a class="nav-link" href="Contact us.html">Contact us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div id="up_t">
+      <div class="container" id="up_t">
+        <br><br><br><br>
+        <div class="row justify-content-center">
+          <h2 class="text-center">CONTACT US</h2>
+          <p class="text-center ">
+            If you have any questions about our forestry products or need advice from our specialists, don't hesitate to contact us! You can call us or, if you prefer, send us an e-mail by filling out the form below. We are committed to reply within two working days.
+          </p>
+          <br><br><br><br>
+        </div>
+      </div>
+    </div>
+  
+    <hr>
+    <div class="container" >
+      <div class="row">
+        <div class="col mx-auto">
+          <div class="card mt-2 mx-auto p-4 bg-dark">
+            <div class="card-body bg-light">
+              <div class="container text-center">
+                <form id="contact-form" role="form">
+                  <div class="controls">
+                    <div class="row justify-content-center">
+                      <h3>FORM</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Name</label> 
+                          <input type="text" class="form-control text-center" placeholder="Your name">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Phone</label> 
+                          <input type="text"  class="form-control text-center" placeholder="Your Phone">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Mail</label> 
+                          <input type="email" class="form-control text-center" placeholder="Your Mail">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label >Subject</label> 
+                          <select  class="form-control text-center">
+                            <option selected disabled>-- Choose an option --</option>
+                            <option id="opt">Forest products</option>
+                            <option>Consultancy</option>
+                            <option>Support</option>
+                            <option>Another</option>
+                        </select>
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Message</label> 
+                          <textarea class="form-control text-center" placeholder="Write what you need" rows="5"></textarea> 
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input class="form-check-input" type="checkbox">I agree that my data will be stored and processed in accordance with the <b id="vrd_b">Privacy Policy</b>.
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Enviar formulario">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mx-auto">
+          <div class="card mt-2 mx-auto p-4 bg-dark">
+            <div class="card-body bg-light ">
+              <div class="row justify-content-center">
+                <h3>FIND US</h3>
+              </div>
+              <hr>              
+              <div class="accordion text-center" id="accordionExample">
+                <div class="card">
+                  <div class="card-header">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="tit_enc">
+                        <b>Medellín</b>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <i class="bi bi-telephone-fill"><p class="card-text">6125851</p></i> 
+                      <i class="bi bi-whatsapp"><a href="https://wa.me/573225920497" id="a_e"><p class="card-text">3225920497</p></a></i>
+                      <i class="bi bi-envelope-fill"><p class="card-text">centro_med@forest.co</p> </i>
+                      <i class="bi bi-geo-alt-fill" id="i_e"><p class="card-text">premium plaza - local 203</p></i>
+                      <hr>
+                      <a  href="https://www.google.com/maps/place/Centro+Comercial+Premium+Plaza/@6.2289513,-75.573058,17z/data=!3m1!4b1!4m5!3m4!1s0x8e44284a4848199d:0xd97a19d5c3273e8a!8m2!3d6.228946!4d-75.5708693?hl=es" target="_blank"><img id="bor" src="pictures/mapa1.jpg" class="img-fluid"  alt="" ></a>                                                
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="tit_enc">
+                        <b>Bello</b>                        
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <i class="bi bi-telephone-fill"><p class="card-text">6135555</p></i> 
+                      <i class="bi bi-whatsapp"><a href="https://wa.me/573017472378" id="a_e"><p class="card-text">3017472378</p></a></i>
+                      <i class="bi bi-envelope-fill"><p class="card-text">centro_bell@forest.co</p> </i>
+                      <i class="bi bi-geo-alt-fill" id="i_e"><p class="card-text">parque fabricato - local 305</p></i>
+                      <hr>
+                      <a  href="https://www.google.com/maps/place/Centro+comercial+Parque+Fabricato/@6.3269313,-75.5597964,17z/data=!4m12!1m6!3m5!1s0x8e442f0969f82e7f:0x410934afad488451!2sFabricato!8m2!3d6.326926!4d-75.5576077!3m4!1s0x8e4429cc26b6daff:0xf7397834e4db1edd!8m2!3d6.326355!4d-75.5580989?hl=es" target="_blank"><img id="bor" src="pictures/mapa2.jpg" class="img-fluid"  alt="" ></a>                                                
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="tit_enc">
+                        <b>Envigado</b>                        
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <i class="bi bi-telephone-fill"><p class="card-text">6146666</p></i> 
+                      <i class="bi bi-whatsapp"><a href="https://wa.me/573225920497" id="a_e"><p class="card-text">3225920497</p></a></i>
+                      <i class="bi bi-envelope-fill"><p class="card-text">centro_env@forest.co</p> </i>
+                      <i class="bi bi-geo-alt-fill" id="i_e"><p class="card-text">viva enviagado - local 208</p></i>
+                      <hr>
+                      <a  href="https://www.google.com/maps/place/Viva+Envigado/@6.176458,-75.5940664,17z/data=!3m1!4b1!4m5!3m4!1s0x8e46824f5773b1cd:0x5252c7aa8134994d!8m2!3d6.1764527!4d-75.5918777?hl=es" target="_blank"><img id="bor" src="pictures/mapa3.jpg" class="img-fluid"  alt="" ></a>                                                
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <div>
+          <a href="Contactanos.html" title="To Top">
+            <i class="bi bi-chevron-double-up" id="upi"></i>
+          </a>
+        </div>
+        <br>
+        <div>
+          <a href="index.html">
+            <img src="pictures/logo4.png" class="img-fluid" width="150" height="150" alt="" id="logo4">
+          </a>
+        </div>
+        <hr>
+        <div>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright
+        <a class="text-white" href="https://www.instagram.com/vic_rios_f/" target=”_blank” id="firma">Victor Rios</a>
+      </div>
+    </footer>
+</body>
+</html>
